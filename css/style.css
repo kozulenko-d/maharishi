@@ -15,6 +15,7 @@ body {
 	text-align: left;
 	background-color: #fff;
 	position: relative;
+	color: #1a2853;
 }
 .headd {
 	background-image: url(../images/masthead.png);
@@ -35,10 +36,9 @@ body {
 	right: 20px;
 }
 .headd h1 {
-	font-weight: normal;
 	font-size: 24px;
 	line-height: 27px;
-	font-family: MyriadProSemibold,sans-serif;
+	font-family: 'PT Sans',sans-serif;
 	text-transform: capitalize;
 	margin-bottom: 4px;
 }
@@ -49,16 +49,44 @@ body {
 	letter-spacing: 5px;
 	text-transform: uppercase;
 	color: #7e8285;
-	font-weight: normal;
 	font-size: 12px;
 	line-height: 19px;
-	font-family: MyriadProSemibold,sans-serif;
+	font-family: 'PT Sans',sans-serif;
 }
 .content {
 	padding: 0 10px 10px;
 }
+.maintext:first-child {
+	background-color: #dfe6ec;
+	padding: 10px 30px;
+	margin-bottom: 24px;
+}
+.maintext ul {
+	font-size: 13px;
+	line-height: 24px;
+	padding-left: 20px;
+	width: 480px;
+	margin-bottom: 12px;
+}
+.maintext h1 {
+	font-size: 20px;
+	line-height: 26px;
+	padding-top: 6px;
+	margin-bottom: 9px;
+}
+.maintext h4 {
+	font-size: 13px;
+	line-height: 18px;
+	margin-bottom: 4px;
+}
 .m30 {
 	margin: 0 30px;
+}
+.rightbox {
+	float: right;
+	height: 400px;
+	background-color: #ff0000;
+	display: inline-block;
 }
 .foot {
 	background-color: #dfe6ec;
