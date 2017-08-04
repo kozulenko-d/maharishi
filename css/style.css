@@ -1,0 +1,98 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body {
+	background-color: #719ebb;
+	text-align: center;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+.main {
+	width: 900px;
+	margin: 0 auto;
+	font-size: 12px;
+	text-align: left;
+	background-color: #fff;
+	position: relative;
+}
+.headd {
+	background-image: url(../images/masthead.png);
+	position: relative;
+	min-height: 108px;
+	padding: 12px 10px 0 90px;
+}
+.headd img#logo {
+	position: absolute;
+	display: block;
+	left: 10px;
+	top: 15px;
+}
+.headd img#accredited {
+	position: absolute;
+	display: block;
+	top: 13px;
+	right: 20px;
+}
+.headd h1 {
+	font-weight: normal;
+	font-size: 24px;
+	line-height: 27px;
+	font-family: MyriadProSemibold,sans-serif;
+	text-transform: capitalize;
+	margin-bottom: 4px;
+}
+.headd h1 span {
+	text-transform: uppercase;
+}
+.headd h2 {
+	letter-spacing: 5px;
+	text-transform: uppercase;
+	color: #7e8285;
+	font-weight: normal;
+	font-size: 12px;
+	line-height: 19px;
+	font-family: MyriadProSemibold,sans-serif;
+}
+.content {
+	padding: 0 10px 10px;
+}
+.m30 {
+	margin: 0 30px;
+}
+.foot {
+	background-color: #dfe6ec;
+	padding: 20px 30px;
+	margin-top: 20px;
+	overflow: hidden;
+}
+.foot p {
+	float: left;
+	width: 48%;
+	line-height: 24px;
+	margin-bottom: 12px;
+}
+.foot p:last-child {
+	margin-left: 4%;
+}
+.foot p:last-child::after {
+	content: '';
+	clear: both;
+	display: block;
+}
+.undermain {
+	padding: 5px 0 20px;
+}
+.undermain:nth-child(2) {
+	margin-top: 15px;
+	padding: 0;
+}
+.undermain a {
+	font-size: 11px;
+	color: #dee5eb;
+	text-decoration: none;
+	text-transform: capitalize;
+}
+.undermain:nth-child(2) a {
+	text-transform: uppercase;
+}
