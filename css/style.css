@@ -59,7 +59,7 @@ body {
 .maintext:first-child {
 	background-color: #dfe6ec;
 	padding: 10px 30px;
-	margin-bottom: 24px;
+	margin: 12px 0 24px;
 }
 .maintext ul {
 	font-size: 13px;
@@ -74,19 +74,98 @@ body {
 	padding-top: 6px;
 	margin-bottom: 9px;
 }
-.maintext h4 {
+h4 {
 	font-size: 13px;
+}
+.maintext h4 {
 	line-height: 18px;
 	margin-bottom: 4px;
 }
 .m30 {
 	margin: 0 30px;
 }
+.m30 img {
+	margin-top: 15px;
+}
 .rightbox {
 	float: right;
-	height: 400px;
-	background-color: #ff0000;
+	width: 310px;
+	margin: 10px 0 30px 30px;
+	box-shadow: 0 4px 20px 5px #c1bbbb;
+	min-height: 400px;
+	background-color: #fff;
 	display: inline-block;
+}
+.redd {
+	border-top: 1px solid #fff;
+	margin: -3px 0 0;
+	background-color: #cd1920;
+	color: #fff;
+	padding: 10px;
+	text-align: center;
+	font-weight: bold;
+}
+.redd p {
+	text-transform: uppercase;
+	font-size: 16px;
+	margin-bottom: 6px;
+}
+.redd h5 {
+	text-transform: capitalize;
+	font-size: 24px;
+	line-height: 30px;
+}
+.formbox {
+	border: 5px solid #dfe6ec;
+	border-top: 0;
+	padding: 12px 0 12px 16px;
+	position: relative;
+}
+.formbox span {
+	color: #c03;
+	font-weight: bold;
+	position: relative;
+	bottom: 5px;
+	left: 4px;
+}
+.formbox span:first-child {
+	margin: 6px 0;
+	display: block;
+	font-weight: normal;
+	bottom: 0;
+	left: 0;
+}
+.formbox input, .formbox select {
+	color: #1a2853;
+	padding: 0 9px;
+	border: 1px solid #cccccc;
+	border-radius: 3px;
+	font-size: 12px;
+	background-color: #fff;
+	box-shadow: inset 0 1px 1px #cccccc;
+	height: 30px;
+	width: 250px;
+	margin-bottom: 9px;
+}
+.formbox button {
+	width: 250px;
+	color: #fff;
+	background: linear-gradient(#0088cc, #0055cc);
+	font-size: 16px;
+	line-height: 30px;
+	font-weight: bold;
+	font-family: Verdana, sans-serif;
+	text-transform: uppercase;
+	cursor: pointer;
+	border: 0 solid #0055cc;
+	border-radius: 3px;
+	padding: 6px 15px;
+	text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+	margin-bottom: 25px;
+}
+.clearfix {
+	clear: both;
+	display: block;
 }
 .foot {
 	background-color: #dfe6ec;
@@ -112,7 +191,7 @@ body {
 	padding: 5px 0 20px;
 }
 .undermain:nth-child(2) {
-	margin-top: 15px;
+	margin-top: 13px;
 	padding: 0;
 }
 .undermain a {
